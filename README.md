@@ -9,7 +9,6 @@ Steps followed during the process:
 ### `npx tailwind init tailwind.js --full ` (config file for css)
 ###  `create config file "postcss.config.css" and add following code`
 `const tailwindcss = require('tailwindcss')
-
 module.exports = {
     plugins: [
         tailwindcss('./tailwind.js'),
